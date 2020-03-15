@@ -1,78 +1,142 @@
-<!-- 
-Coded based on this design:
-https://dribbble.com/shots/2478322-Paperpillar-Studio-Landing-Page
--->
+<!DOCTYPE html>
 <html>
-<head>
-    <title>Kashless</title>
-    <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-        <header>
-            <p class="logo">Paperpillar</p>
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">About Kashless</a>
-                <a href="#">Services</a>
-                <a href="#">Contact</a>
-            </nav>
-        
-        <div class="banner">
-            <div class="heading_content">
-                <h1>Content</h1>
-                <a href="#" class="btn">Contact Us</a>
-            </div>
-            
-            <div class="banner_bg">
-                    <img src="https://s10.postimg.org/jv6e3pc55/bg.png" alt="Paperpillar Mascot" class="small_bg">
-            </div>
-        </div>
-        </header>
+    <head>
+        <title>Kashless</title>
+        <link rel = "stylesheet" href = "style.css">
+        <link rel = "text/script" href = "script.js">
 
-<section class="wrapper"> 
-        <div class="main_content">
-            <h2>What<br> We Do</h2>
-            <div class="skills">
-                    <h3>Services</h3>
-                        <p></p>
-                    
-                    <h3>Services</h3>
-                        <p></p>
-                    
-                    <h3>Services</h3>
-                        <p></p>
+    </head>
+   
+        
+<!-- Header Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<header>
+    <div class="container"> <img src="https://jeffbredenkamp.neocities.org/geologo.png" alt="logo" class="logo">
+      <div class="main_nav">
+        <div class="mobile-toggle"> <span></span> <span></span> <span></span> </div>
+        <nav>
+          <ul>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+            <li><a class="smoothscroll" href="#features">Features</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="row hero">
+        <div class="eight columns">
+          <h1 class="header">Lorem Ipsum.</h1>
+          <h2 class="subheader">At vero eos et accusamus et iusto odio dignissimos</h2>
+          <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <a href="#"><img src="https://jeffbredenkamp.neocities.org/app-store-badge.png" class="appstorebutton btn" alt="Download on Apple Store"></a> <a href="#"><img src="https://jeffbredenkamp.neocities.org/google-play-badge.png" class="appstorebutton btn" alt="Download on Google Play"></a> </div>
+        <div class="four columns"> <img src="https://jeffbredenkamp.neocities.org/phone2.png" class="phone device" alt="phone mockup"> </div>
+      </div>
+    </div>
+  </header>
+  
+  <!-- About Section
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <section id="about">
+    <div class="container">
+      <div class="eight columns">
+        <div class="row">
+          <h1>At vero eos et accusamus et iusto odio dignissimos.</h1>
+        </div>
+        <div class="row">
+          <div class="six columns">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          <div class="six columns">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+        </div>
+      </div>
+      <div class="four columns"> <img src="https://jeffbredenkamp.neocities.org/geologo.png"> </div>
+    </div>
+  </section>
+  
+  <!-- Features Section
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <section id="features">
+    <div class="container">
+      <div class="row">
+        <div class="four columns">
+          <div class="row">
+            <div class="three columns"> <span class="typcn typcn-location-outline icon"></span> </div>
+            <div class="nine columns">
+              <h2>Location</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
             </div>
-        </div>
-        
-        <div class="sub_content">
-            <h2>Our Latest<br> Work</h2>
-                <div class="work_showcase">
-                    <img src="https://s10.postimg.org/uw1j8q4e1/img-5.jpg" alt="Work Showcase" class="small-img">
-                    <a href="#" class="btn btn_primary">View More</a>
-                </div>
-        </div>
-        
-        <div class="footer_content">
-            <h2>Our Daily Routine</h2>
-        </div>
-</section>
-        
-        <footer>
-            <div class="footer_container">
-                <h3>Kashless</h3>
-                    <p></p>
-                        <ul>
-                            <li><a href="#" class="social_icons"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
-                            <li><a href="#" class="social_icons"><i class="" aria-hidden="true"></i></a></li>
-                            <li><a href="#" class="social_icons"><i class="" aria-hidden="true"></i></a></li>
-                            <li><a href="#" class="social_icons"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="#" class="social_icons"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        </ul>
-                <a href="#" class="btn btn_secondary">Contact Us</a>
+          </div>
+          <div class="row">
+            <div class="three columns"> <span class="typcn typcn-lightbulb icon"></span> </div>
+            <div class="nine columns">
+              <h2>Ideas</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
             </div>
-        </footer> 
-</body>
+          </div>
+          <div class="row">
+            <div class="three columns"> <span class="typcn typcn-spanner-outline icon"></span> </div>
+            <div class="nine columns">
+              <h2>Customisable</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+          </div>
+        </div>
+        <div class="four columns"> <img src="https://jeffbredenkamp.neocities.org/phone2.png" class="phoneFeature" alt="phone mockup"> </div>
+        <div class="four columns">
+          <div class="row">
+            <div class="nine columns">
+              <h2>Secure</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+            <div class="three columns"> <span class="typcn typcn-key-outline icon"></span> </div>
+          </div>
+          <div class="row">
+            <div class="nine columns">
+              <h2>Efficient</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+            <div class="three columns"> <span class="typcn typcn-battery-high icon"></span> </div>
+          </div>
+          <div class="row">
+            <div class="nine columns">
+              <h2>Powerful</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+            <div class="three columns"> <span class="typcn typcn-flash-outline icon"></span> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Contact Section
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <section id="contact">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <div class="row">
+        <form action="">
+          <input type="text" placeholder="Name" name="name" required>
+          <input type="email" placeholder="Email" name="email" required>
+          <input type="number" placeholder="Telephone" name="number" required>
+          <textarea placeholder="Message" name="message" required></textarea>
+          <input type="submit" value="Send">
+        </form>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer Section
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <footer>
+    <div class="container">
+      <div class="six columns"> <span class="typcn typcn-social-facebook socialIcons"></span> <span class="typcn typcn-social-twitter socialIcons"></span> <span class="typcn typcn-social-instagram socialIcons"></span> <span class="typcn typcn-social-linkedin socialIcons"></span> </div>
+      <div class="six columns">
+        <p>&copy; 2016</p>
+      </div>
+    </div>
+  </footer>
+    
 </html>
