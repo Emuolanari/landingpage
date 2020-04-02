@@ -146,5 +146,30 @@
       </div>
     </div>
   </footer>
+            <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+             https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-analytics.js"></script>
+        <script src="/__/firebase/7.13.1/firebase-auth.js"></script>
+        <script src="/__/firebase/7.13.1/firebase-firestore.js"></script>
+
+        <script>
+          // Your web app's Firebase configuration
+          var firebaseConfig = {
+            apiKey: "AIzaSyBjpp11929WXBv4pjV1rxKHv0BuEtUq8kI",
+            authDomain: "kashless-9bbca.firebaseapp.com",
+            databaseURL: "https://kashless-9bbca.firebaseio.com",
+            projectId: "kashless-9bbca",
+            storageBucket: "kashless-9bbca.appspot.com",
+            messagingSenderId: "504027807418",
+            appId: "1:504027807418:web:65535c5da8da5b4b688c83",
+            measurementId: "G-C816XQM49J"
+          };
+          // Initialize Firebase
+          firebase.initializeApp(firebaseConfig);
+          firebase.analytics();
+        </script>
     
 </html>
